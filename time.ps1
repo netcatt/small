@@ -19,3 +19,5 @@ if (!$current_zone) {throw "Could'nt find time zone. exiting."}
 Set-TimeZone -Name $current_zone.StandardName
 
 Set-Date -Date (Get-Date -Date $time.datetime)
+
+# Found this on somewhere on the internet
