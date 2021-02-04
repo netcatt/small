@@ -10,8 +10,6 @@ from watchdog.events import FileSystemEventHandler # pip install watchdog
 import requests # pip install requests
 
 def send_webhook(url, content, username, embedd, description, title):
-    url = url
-
     data = {}
     data["content"] = content
     data["username"] = username
